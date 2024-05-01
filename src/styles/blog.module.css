@@ -6,6 +6,7 @@
   margin: 0 auto;
   padding: 40px 0 0;
 }
+
 @media (max-width: 640px) {
   .main footer {
     margin: 0 auto 40px;
@@ -15,6 +16,18 @@
 .post {
   margin: 0 auto 40px;
 }
+
+@media (min-width: 641px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .post {
+    width: 33.3%;
+    padding: 5px;
+  }
+}
+
 .post footer {
   margin-top: 0.5rem;
   padding: 0;
