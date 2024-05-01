@@ -100,13 +100,12 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
   ogImage={ogImage}
 >
   <div slot="main" class={styles.main}>
-    <div class={styles.post}>
+    <div class={styles.article}>
       <PostDate post={post} />
       <PostTags post={post} />
       <PostTitle post={post} enableLink={false} />
       <PostBody blocks={blocks} />
-      <PostTags post={post} />
-
+      <!-- <PostTags post={post} /> -->
       <footer>
         <PostRelativeLink prevPost={prevPost} nextPost={nextPost} />
       </footer>
