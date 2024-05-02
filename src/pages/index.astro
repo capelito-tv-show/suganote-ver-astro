@@ -40,8 +40,8 @@ const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
               <PostTitle post={post} />
               <a href={getPostLink(post.Slug)}>
                 <PostFeaturedImage post={post} />
-                <PostExcerpt post={post} />
-                <ReadMoreLink post={post} />
+                {/* <PostExcerpt post={post} />
+                <ReadMoreLink post={post} /> */}
               </a>
             </div>
           ))
